@@ -1,0 +1,77 @@
+/* Copyright @ 2022DEP8. All Rights Reserved.
+
+*This project is licesed under MIT Licence
+*Please find the license file
+*
+*
+*
+*
+*
+*
+*/
+/* == Base Styles | Utilities*/
+
+:root{
+    font-size: 14px;
+}
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.clearfix{
+    clear: both;
+
+}
+.small{
+    font-size: 13px;
+}
+/* == Site-Wide | Layout*/
+header{
+    display: flex;
+}
+header a{
+    color: rgba(0,0,0,.87);
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+header #sign-in{
+    width: 80;
+    height: 36;
+    border: 1px solid transparent;
+    background: #1a73e8;
+    border-radius: 4px;
+padding: 9px 15px;
+margin: 0 8px;
+color: white;
+row-gap: 15px;
+
+}
+header #sign-in:hover{
+
+    background-color: rgba(60,64,67,0.08);
+
+}
+
+header #btn-app svg{
+    fill: #5f6368;
+   
+}
+header #btn-app{
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+   
+    padding: 8px;
+}
+/* == Page Sepecific 
+
+/* == meadia */
+@media all and (max-width: 419px){
+    header{
+        justify-content: center;
+    }
+}
