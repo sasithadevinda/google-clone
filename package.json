@@ -1,0 +1,23 @@
+{
+  "name": "html-cse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sasithadevinda/google-clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sasithadevinda/google-clone/issues"
+  },
+  "homepage": "https://github.com/sasithadevinda/google-clone#readme",
+  "dependencies": {
+    "reset-css": "^5.0.1"
+  }
+}
